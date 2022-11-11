@@ -1,9 +1,9 @@
+#include "../include/main.h"
+
 class Data {
-  int test = 0;
-
 public:
-  Data() { test = 0; }
-  Data(int t) { test = t; }
+  std::string path = "data/";
+  Data(std::string p) { path = p; }
 
-  int getTest() { return test; }
+  std::string getPath() { return path; }
 };
