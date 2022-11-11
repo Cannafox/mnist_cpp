@@ -1,9 +1,11 @@
-#include "../src/data.cpp"
+#include <iostream>
 
 class Data {
-public:
+protected:
   std::string path;
 
+public:
+  Data();
   Data(std::string p);
 
   std::string getPath();

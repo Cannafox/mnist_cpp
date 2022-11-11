@@ -1,3 +1,3 @@
 #include <iostream>
 
-#include "data.h"
+#include "../src/data.cpp"

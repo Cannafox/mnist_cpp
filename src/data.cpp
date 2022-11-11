@@ -1,9 +1,7 @@
-#include "../include/main.h"
+#include "../include/data.h"
+#include <iostream>
+Data::Data() { path = "/data"; }
 
-class Data {
-public:
-  std::string path = "data/";
-  Data(std::string p) { path = p; }
+Data::Data(std::string p) { path = p; }
 
-  std::string getPath() { return path; }
-};
+std::string Data::getPath() { return path; }
